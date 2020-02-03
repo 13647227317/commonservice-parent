@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos" />
+        <module name="nacos-demo" />
+        <module name="consumer-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commonservice-parent" target="1.8" />
+      <module name="consumer-demo" target="1.8" />
+      <module name="example" target="1.8" />
+      <module name="nacos" target="1.8" />
+      <module name="nacos-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commonservice-parent" options="-parameters" />
+      <module name="consumer-demo" options="-parameters" />
+      <module name="example" options="" />
+      <module name="nacos" options="-parameters" />
+      <module name="nacos-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
