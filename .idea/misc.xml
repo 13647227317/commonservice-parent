@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/nacos-demo/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/consumer-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/common-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/common-monitor/adminserver-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

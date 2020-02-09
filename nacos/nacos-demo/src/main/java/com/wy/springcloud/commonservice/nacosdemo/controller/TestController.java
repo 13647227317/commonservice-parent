@@ -17,9 +17,6 @@ public class TestController {
 
     @GetMapping("/test1")
     public String test1(){
-        if (1==1){
-            throw new RuntimeException("出错了");
-        }
         return nacosConfig;
     }
 }
