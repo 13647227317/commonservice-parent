@@ -19,6 +19,7 @@
         <java.version>1.8</java.version>
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.2.0.RELEASE</spring-cloud-alibaba.version>
         <nacos.version>2.1.1.RELEASE</nacos.version>
         <lombok.version>1.18.10</lombok.version>
         <spring-boot.admin.version>2.2.1</spring-boot.admin.version>
@@ -35,19 +36,31 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- nacos config -->
+            <!-- springcloud alibaba -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+<!--            &lt;!&ndash; nacos config &ndash;&gt;
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
                 <version>${nacos.version}</version>
             </dependency>
 
-            <!-- nacos discovery -->
+            &lt;!&ndash; nacos discovery &ndash;&gt;
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
                 <version>${nacos.version}</version>
-            </dependency>
+            </dependency>-->
+
+
+
             <!--lombok-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -71,6 +84,8 @@
     <modules>
         <module>nacos</module>
         <module>zipkin</module>
+        <module>zuul</module>
+        <module>sentinel</module>
     </modules>
 
     <build>

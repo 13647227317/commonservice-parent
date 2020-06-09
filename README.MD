@@ -4,5 +4,13 @@
     Nacos
 二、监控中心：
     spring-boot admin
-三、服务跟踪分析中心
-   Zipkin    
+三、服务跟踪分析中心：
+   Zipkin
+四、网关：
+    Zuul
+五、限流：
+    Sentinel    
+    
+
+    
+    
