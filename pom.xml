@@ -86,6 +86,7 @@
         <module>zipkin</module>
         <module>zuul</module>
         <module>sentinel</module>
+        <module>seata</module>
     </modules>
 
     <build>
